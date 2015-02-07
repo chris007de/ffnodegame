@@ -10,10 +10,10 @@
 #
 
 #source path of node data
-JSONSRC='http://burgtor.ffhl/mesh/nodes.json'
+JSONSRC='http://map.freifunk-muenchen.de/nodes.json'
 
 #password for commands over GET requests
-PWD='hackme'
+PWD='hackmenot'
 
 #score values
 SC_OFFLINE=-100
@@ -29,7 +29,7 @@ SC_PERAPPLE=-15
 #----
 
 #hide following nodes from scores
-BLACKLIST=['burgtor','holstentor','muehlentor']
+BLACKLIST=['VPN GW01','VPN GW03','VPN GW04']
 
 #----
 
